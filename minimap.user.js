@@ -7,8 +7,8 @@
 // @match        https://pixelplanet.fun/*
 // @match        http://pixelplanet.fun/*
 // @homepage     https://github.com/5ardina/Minimap
-// @updateURL    https://raw.githubusercontent.com/5ardina/Minimap/minimap.user.js
-// @downloadURL  https://raw.githubusercontent.com/5ardina/Minimap/minimap.user.js
+// @updateURL    https://raw.githubusercontent.com/5ardina/Minimap/main/minimap.user.js
+// @downloadURL  https://raw.githubusercontent.com/5ardina/Minimap/main/minimap.user.js
 // @grant        none
 // ==/UserScript==
 
@@ -18,7 +18,7 @@ Number.prototype.between = function(a, b) {
   return this > min && this < max;
 };
 var range = 45;
-window.baseTepmlateUrl = 'https://raw.githubusercontent.com/5ardina/Minimap/';
+window.baseTepmlateUrl = 'https://raw.githubusercontent.com/5ardina/Minimap/main/';
 
 window.addEventListener('load', function () {
     //Регулярное выражение для получения координат из URL-адреса
